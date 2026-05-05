@@ -22,6 +22,7 @@
 - [🚀 About](#-about)
 - [✨ Key Features](#-key-features)
 - [🧩 Tech Stack](#-tech-stack)
+- [📜 Code of Conduct](#-code-of-conduct)
 - [🎯 Vision](#-vision)
 - [⚡ Getting Started](#-getting-started)
 - [🎬 Team](#-team)
@@ -45,11 +46,16 @@ Whether it's penetration testing, secure API design, or building encrypted commu
 ---
 
 ## 🧩 Tech Stack
-Our core architecture is built on performance and reliability:
-- **Languages**: JavaScript (Node.js), Rust (for security-critical modules)
-- **Frontend**: Next.js (Admin Dashboards)
-- **Database**: MongoDB / PostgreSQL (Secure data persistence)
-- **Security**: OpenSSL, JWT, OAuth 2.0
+*To be defined as the project evolves.*
+
+---
+
+## 📜 Code of Conduct
+As a cybersecurity-focused team, we adhere to the following principles:
+- **Ethics First**: Our research and tools must always be used for ethical purposes and defense.
+- **Full Disclosure**: We follow responsible disclosure practices for any vulnerabilities found.
+- **Collaborative Growth**: We support each other's learning and maintain a professional environment.
+- **Privacy & Security**: We respect the privacy of all individuals and never compromise data integrity for personal gain.
 
 ---
 
