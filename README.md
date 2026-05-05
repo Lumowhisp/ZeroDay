@@ -12,7 +12,7 @@
 
 **ZeroDay** is a cutting-edge cybersecurity initiative focused on proactive defense, vulnerability research, and the development of next-generation security infrastructure. We bridge the gap between traditional security and the evolving threat landscape.
 
-[Explore Documentation](docs/README.md) · [Report Bug](https://github.com/Lumowhisp/ZeroDay/issues) · [Request Feature](https://github.com/Lumowhisp/ZeroDay/issues)
+[Explore Documentation](Docs/Detail.md) · [Report Bug](https://github.com/Lumowhisp/ZeroDay/issues) · [Request Feature](https://github.com/Lumowhisp/ZeroDay/issues)
 
 </div>
 
