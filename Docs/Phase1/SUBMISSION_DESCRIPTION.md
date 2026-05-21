@@ -1,5 +1,4 @@
 # DocShield AI — Submission Description
-> Copy-paste the text below into the hackathon portal's "Description" field.
 
 ---
 
