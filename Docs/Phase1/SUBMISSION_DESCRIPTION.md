@@ -3,13 +3,13 @@
 
 ---
 
-## 🔥 The Problem
+##  The Problem
 
 Indian banks lost ₹13,930 Cr to fraud in FY24 (RBI Annual Report), with loan advances accounting for over 70% of these losses. At Canara Bank — with 9,849 domestic branches and ₹10.73 Lakh Cr in global advances — every mortgage and commercial loan requires manual verification of land records, legal documents (Power of Attorney, sale deeds, court orders), and financial statements (ITR, bank statements, salary slips). This manual process takes 3–7 working days per application, costs ~₹1,500 per file in empanelled legal searches, and is vulnerable to sophisticated digital forgeries that human reviewers consistently miss — forged survey numbers on sale deeds, photoshopped salary figures, and spliced signatures on encumbrance certificates.
 
 Existing digital verification tools (like HyperVerge, Digio, or SignDesk) focus narrowly on identity card OCR and database lookups. They verify that a PAN number exists — but they cannot detect whether the PAN card image itself has been digitally manipulated. No commercially available solution in India currently performs pixel-level forensic analysis on banking documents.
 
-## 💡 Our Solution: DocShield AI
+##  Our Solution: DocShield AI
 
 DocShield AI is a real-time document forensic intelligence engine built specifically for Canara Bank's underwriting pipeline. It automatically detects tampering, changes, and forgery attempts across land records, legal documents, and financial statements using a proprietary **5-layer forensic analysis pipeline**.
 
@@ -27,7 +27,7 @@ Unlike single-model approaches (Image → CNN → Real/Fake) that most teams wil
 
 A **Decision Fusion Engine** aggregates all five layer scores into a single weighted risk verdict. An **Explainability Engine** then generates visual tampering heatmaps (red overlays showing exactly where manipulation was detected) and natural language justifications (e.g., "The registration number field shows re-compression artifacts inconsistent with the surrounding template") — fully aligned with **RBI's FREE-AI Framework (August 2025), Sutra 6: Understandable by Design**.
 
-## 🤖 Agentic Document Routing (Human-in-the-Loop)
+##  Agentic Document Routing (Human-in-the-Loop)
 
 DocShield AI doesn't just flag — it intelligently routes:
 - **Low Risk (Score < 0.4):** Auto-verified, fast-tracked for CBS approval.
@@ -36,7 +36,7 @@ DocShield AI doesn't just flag — it intelligently routes:
 
 This creates a scalable Human-in-the-Loop (HITL) workflow aligned with **FREE-AI Sutra 2 (People First)** — no loan is ever auto-rejected without human oversight.
 
-## 🧭 RBI FREE-AI Compliance (All 7 Sutras)
+##  RBI FREE-AI Compliance (All 7 Sutras)
 
 DocShield AI is designed to comply with all 7 Sutras of RBI's FREE-AI framework from day one:
 - **Sutra 1 (Trust):** 5-layer ensemble prevents single-point failure.
@@ -47,7 +47,7 @@ DocShield AI is designed to comply with all 7 Sutras of RBI's FREE-AI framework 
 - **Sutra 6 (Explainability):** Visual heatmaps + natural language justifications for every verdict.
 - **Sutra 7 (Safety):** Containerized deployment with graceful degradation (falls back to L1+L2 if ML workers fail).
 
-## 🔒 Data Privacy (DPDP Act 2023 + PMLA Compliance)
+##  Data Privacy (DPDP Act 2023 + PMLA Compliance)
 
 DocShield AI implements a **4-Phase Tiered Data Retention Architecture**:
 1. **Active Processing:** Documents encrypted with AES-256 during underwriting.
@@ -57,7 +57,7 @@ DocShield AI implements a **4-Phase Tiered Data Retention Architecture**:
 
 Post-erasure, only SHA-256 hashes, consent logs, and non-sensitive derived fields are retained for audit compliance (PMLA 5-year requirement).
 
-## 📈 Impact (Canara Bank Case Study)
+## Impact (Canara Bank Case Study)
 
 | Metric | Current (Manual) | With DocShield AI |
 |--------|-----------------|-------------------|
@@ -67,7 +67,7 @@ Post-erasure, only SHA-256 hashes, consent logs, and non-sensitive derived field
 | Fraud Write-off Prevention | — | **₹84.6 Cr/year** |
 | Detection Accuracy | ~85% (human) | **94%+** (AI ensemble) |
 
-## 🏗️ Feasibility & Tech Stack
+##  Feasibility & Tech Stack
 
 Built entirely on proven, open-source technologies: **FastAPI** (backend), **Next.js** (dashboard), **PyTorch** (CNN inference), **Redis + Celery** (async queue), **PostgreSQL** (audit DB), **Docker Compose** (single-command deployment).
 
@@ -79,7 +79,7 @@ Built entirely on proven, open-source technologies: **FastAPI** (backend), **Nex
 
 Every component uses pre-existing libraries and pre-trained weights. No moonshot dependencies.
 
-## 👥 Team ZeroDay
+##  Team ZeroDay
 
 - **Aditya** — Team Lead & Tech Architect (FastAPI, Next.js, system integration)
 - **Aaryan** — ML Developer (PyTorch CNNs, OpenCV ELA, OCR pipelines)
