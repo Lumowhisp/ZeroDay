@@ -80,6 +80,6 @@ Every component uses pre-existing libraries and pre-trained weights. No moonshot
 
 ##  Team ZeroDay
 
-- **Aditya** — Team Lead & Tech Architect (FastAPI, Next.js, system integration)
-- **Aaryan** — ML Developer (PyTorch CNNs, OpenCV ELA, OCR pipelines)
+- **Aditya** — Team Lead & Tech Architect (FastAPI,ML, system integration)
+- **Aaryan** — FrontEnd Developer & UI/UX Designer 
 - **Sonali** — Domain Researcher & Impact Analyst (banking workflows, regulatory compliance, financial modeling)
