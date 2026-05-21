@@ -24,26 +24,26 @@ Built specifically for **Canara Bank's** underwriting pipeline. Compliant with *
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 
-- [🔥 The Problem](#-the-problem)
-- [💡 Our Solution](#-our-solution)
-- [🧬 5-Layer Forensic Pipeline](#-5-layer-forensic-pipeline)
-- [🎯 Theme Alignment](#-theme-alignment)
-- [🚀 Innovation Highlights](#-innovation-highlights)
-- [🧭 RBI FREE-AI Compliance](#-rbi-free-ai-compliance-all-7-sutras)
-- [🔒 Data Privacy Architecture](#-data-privacy--dpdp-act-2023)
-- [📈 Impact & Business Case](#-impact--business-case)
-- [🏗️ Feasibility & Sprint Plan](#-feasibility--4-week-sprint-plan)
-- [🧩 Tech Stack](#-tech-stack)
-- [📊 Phase 1 Research Repository](#-phase-1-research-repository)
-- [📁 Project Structure](#-project-structure)
-- [🎬 Team ZeroDay](#-team-zeroday)
-- [📄 License](#-license)
+- [The Problem](#-the-problem)
+- [Our Solution](#-our-solution)
+- [5-Layer Forensic Pipeline](#-5-layer-forensic-pipeline)
+- [Theme Alignment](#-theme-alignment)
+- [Innovation Highlights](#-innovation-highlights)
+- [RBI FREE-AI Compliance](#-rbi-free-ai-compliance-all-7-sutras)
+- [Data Privacy Architecture](#-data-privacy--dpdp-act-2023)
+- [Impact & Business Case](#-impact--business-case)
+- [Feasibility & Sprint Plan](#-feasibility--4-week-sprint-plan)
+- [Tech Stack](#-tech-stack)
+- [Phase 1 Research Repository](#-phase-1-research-repository)
+- [Project Structure](#-project-structure)
+- [Team ZeroDay](#-team-zeroday)
+- [License](#-license)
 
 ---
 
-## 🔥 The Problem
+## The Problem
 
 <table>
 <tr>
@@ -52,10 +52,10 @@ Built specifically for **Canara Bank's** underwriting pipeline. Compliant with *
 Indian banks lost **₹13,930 Cr to fraud in FY24** (RBI Annual Report), with loan advances accounting for **70%+ of total losses**. At Canara Bank — with **9,849 domestic branches** and ₹10.73 Lakh Cr in global advances — every mortgage and commercial loan requires manual verification of land records, legal documents, and financial statements.
 
 **Current pain points:**
-- 📅 Manual verification takes **3–7 working days** per application
-- 💸 Costs **~₹1,500 per file** in empanelled legal searches & CA audits
-- 🔍 Human reviewers **miss sophisticated digital forgeries** — modified survey numbers, photoshopped salary figures, spliced signatures
-- 🤖 Existing tools (HyperVerge, Digio, SignDesk) only do **identity OCR & database lookups** — they verify that a PAN *number* exists, not whether the PAN *card image* was digitally manipulated
+- Manual verification takes **3–7 working days** per application
+- Costs **~₹1,500 per file** in empanelled legal searches & CA audits
+- Human reviewers **miss sophisticated digital forgeries** — modified survey numbers, photoshopped salary figures, spliced signatures
+- Existing tools (HyperVerge, Digio, SignDesk) only do **identity OCR & database lookups** — they verify that a PAN *number* exists, not whether the PAN *card image* was digitally manipulated
 
 </td>
 <td width="40%">
@@ -85,7 +85,7 @@ Indian banks lost **₹13,930 Cr to fraud in FY24** (RBI Annual Report), with lo
 
 ---
 
-## 💡 Our Solution
+## Our Solution
 
 **DocShield AI** is a real-time document forensic intelligence engine that **automatically detects tampering, changes, and forgery attempts** across land records, legal documents (Power of Attorney, sale deeds, court orders, affidavits), and financial statements (ITR, bank statements, salary slips).
 
@@ -95,7 +95,7 @@ Unlike single-model approaches (`Image → CNN → Real/Fake`), DocShield AI imp
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                        DOCSHIELD AI PIPELINE                           │
 │                                                                        │
-│  📄 Upload ──► L1: Metadata ──► L2: ELA ──► L3: CNN ──► L4: OCR/Font │
+│   Upload ──► L1: Metadata ──► L2: ELA ──► L3: CNN ──► L4: OCR/Font │
 │                                                              │         │
 │                                              L5: Cross-Doc ◄─┘         │
 │                                                   │                    │
@@ -109,16 +109,16 @@ Unlike single-model approaches (`Image → CNN → Real/Fake`), DocShield AI imp
 ```
 
 **Key capabilities:**
-- ⚡ **Real-time analysis** — under 3 seconds per document
-- 🔬 **5-layer forensic pipeline** — defense-in-depth, not single-point failure
-- 🧠 **Explainable verdicts** — visual heatmaps + natural language reasoning
-- 🔗 **Cross-document intelligence** — catches fraud that single-doc analysis misses
-- 🤖 **Agentic routing** — auto-triages flagged documents to the right reviewer
-- 🇮🇳 **India-first** — Hindi + English OCR, Khata/7-12/Patta support, on-premise deployment
+- **Real-time analysis** — under 3 seconds per document
+- **5-layer forensic pipeline** — defense-in-depth, not single-point failure
+- **Explainable verdicts** — visual heatmaps + natural language reasoning
+- **Cross-document intelligence** — catches fraud that single-doc analysis misses
+- **Agentic routing** — auto-triages flagged documents to the right reviewer
+- **India-first** — Hindi + English OCR, Khata/7-12/Patta support, on-premise deployment
 
 ---
 
-## 🧬 5-Layer Forensic Pipeline
+## 5-Layer Forensic Pipeline
 
 | Layer | Technique | What It Catches | Technology |
 |:-----:|:----------|:----------------|:-----------|
@@ -132,7 +132,7 @@ Unlike single-model approaches (`Image → CNN → Real/Fake`), DocShield AI imp
 
 ---
 
-## 🎯 Theme Alignment
+## Theme Alignment
 
 > **Theme 1:** *"How can a bank automatically detect tampering, changes, or forgery attempts across land records, legal documents, and financial statements in real time? The goal is to provide intelligent insights to support faster, reliable decision-making during underwriting."*
 
@@ -154,7 +154,7 @@ Unlike single-model approaches (`Image → CNN → Real/Fake`), DocShield AI imp
 
 ---
 
-## 🚀 Innovation Highlights
+## Innovation Highlights
 
 ### 1. Defense-in-Depth Pipeline (No Other Team Will Have This)
 Most teams will build: `Image → CNN → Real/Fake`. We build a **5-layer ensemble** where each layer catches what others miss. Even if an adversarial image fools one model, the other four catch it.
@@ -176,7 +176,7 @@ No loan is ever auto-rejected without human oversight — compliant with FREE-AI
 
 ---
 
-## 🧭 RBI FREE-AI Compliance (All 7 Sutras)
+## RBI FREE-AI Compliance (All 7 Sutras)
 
 DocShield AI is designed to comply with the **RBI FREE-AI Framework (August 13, 2025)** from day one:
 
@@ -190,7 +190,7 @@ DocShield AI is designed to comply with the **RBI FREE-AI Framework (August 13, 
 | **6** | Understandable by Design | Dual-channel XAI: visual heatmaps + natural language explanations in English/Hindi. |
 | **7** | Safety & Resilience | Containerized deployment. Graceful degradation — falls back to L1+L2 if ML workers crash. Crypto-shredding for data lifecycle safety. |
 
-> 📄 **Full Sutra-by-Sutra mapping with deep dives:** [compliance_research.md](Docs/Phase1/research/compliance_research.md)
+> **Full Sutra-by-Sutra mapping with deep dives:** [compliance_research.md](Docs/Phase1/research/compliance_research.md)
 
 ---
 
