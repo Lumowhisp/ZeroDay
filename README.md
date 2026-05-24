@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="Logo/Red.png" alt="DocShield AI" width="200"/>
+<img src="Logo/Red.png" alt="Forensica" width="200"/>
 
-# 🛡️ DocShield AI
+# 🛡️ Forensica
 
 ### *Real-Time Document Forensic Intelligence for Indian Banking*
 
@@ -87,13 +87,13 @@ Indian banks lost **₹13,930 Cr to fraud in FY24** (RBI Annual Report), with lo
 
 ## Our Solution
 
-**DocShield AI** is a real-time document forensic intelligence engine that **automatically detects tampering, changes, and forgery attempts** across land records, legal documents (Power of Attorney, sale deeds, court orders, affidavits), and financial statements (ITR, bank statements, salary slips).
+**Forensica** is a real-time document forensic intelligence engine that **automatically detects tampering, changes, and forgery attempts** across land records, legal documents (Power of Attorney, sale deeds, court orders, affidavits), and financial statements (ITR, bank statements, salary slips).
 
-Unlike single-model approaches (`Image → CNN → Real/Fake`), DocShield AI implements **defense-in-depth forensic analysis** — five independent detection layers, each catching what others miss:
+Unlike single-model approaches (`Image → CNN → Real/Fake`), Forensica implements **defense-in-depth forensic analysis** — five independent detection layers, each catching what others miss:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                        DOCSHIELD AI PIPELINE                           │
+│                        FORENSICA PIPELINE                              │
 │                                                                        │
 │   Upload ──► L1: Metadata ──► L2: ELA ──► L3: CNN ──► L4: OCR/Font │
 │                                                              │         │
@@ -136,7 +136,7 @@ Unlike single-model approaches (`Image → CNN → Real/Fake`), DocShield AI imp
 
 > **Theme 1:** *"How can a bank automatically detect tampering, changes, or forgery attempts across land records, legal documents, and financial statements in real time? The goal is to provide intelligent insights to support faster, reliable decision-making during underwriting."*
 
-| Theme Keyword | DocShield AI Coverage |
+| Theme Keyword | Forensica Coverage |
 |:---|:---|
 | "automatically detect" | ✅ 5-layer pipeline runs without human intervention |
 | "tampering" | ✅ L2 (ELA) + L3 (CNN) catch pixel-level digital edits |
@@ -160,7 +160,7 @@ Unlike single-model approaches (`Image → CNN → Real/Fake`), DocShield AI imp
 Most teams will build: `Image → CNN → Real/Fake`. We build a **5-layer ensemble** where each layer catches what others miss. Even if an adversarial image fools one model, the other four catch it.
 
 ### 2. Cross-Document Intelligence (Genuinely Novel)
-Standard IDV platforms analyze documents in isolation. If a PAN card, Aadhaar, and Sale Deed are individually clean, they pass — even if the data between them contradicts. DocShield AI builds a **unified application graph** that cross-references names, survey numbers, dates, and addresses across all uploaded collateral.
+Standard IDV platforms analyze documents in isolation. If a PAN card, Aadhaar, and Sale Deed are individually clean, they pass — even if the data between them contradicts. Forensica builds a **unified application graph** that cross-references names, survey numbers, dates, and addresses across all uploaded collateral.
 
 ### 3. Explainable AI (RBI FREE-AI Compliant)
 Not just "forged" but *"forged because the registration number field shows re-compression artifacts inconsistent with the surrounding template, and the stated property area (8,500 sq ft) exceeds the Khata record (5,800 sq ft)."* Visual heatmaps + natural language reasoning for every verdict.
@@ -178,7 +178,7 @@ No loan is ever auto-rejected without human oversight — compliant with FREE-AI
 
 ## RBI FREE-AI Compliance (All 7 Sutras)
 
-DocShield AI is designed to comply with the **RBI FREE-AI Framework (August 13, 2025)** from day one:
+Forensica is designed to comply with the **RBI FREE-AI Framework (August 13, 2025)** from day one:
 
 | Sutra | Principle | How We Comply |
 |:-----:|:----------|:--------------|
@@ -196,7 +196,7 @@ DocShield AI is designed to comply with the **RBI FREE-AI Framework (August 13, 
 
 ## Data Privacy — DPDP Act 2023
 
-DocShield AI implements a **4-Phase Tiered Data Retention Architecture** with **Crypto-Shredding**:
+Forensica implements a **4-Phase Tiered Data Retention Architecture** with **Crypto-Shredding**:
 
 ```
 Phase 1: Active Processing          ──► AES-256 encrypted, app workers have access
@@ -224,7 +224,7 @@ Permanent Archive: SHA-256 hashes + consent logs + derived fields only
 
 ### Canara Bank Case Study
 
-| Metric | Current (Manual) | With DocShield AI | Improvement |
+| Metric | Current (Manual) | With Forensica | Improvement |
 |:-------|:-----------------|:------------------|:------------|
 | **Verification Time** | 3–7 days | < 3 seconds | **~100,000x faster** |
 | **Cost per Application** | ₹1,500 | ₹30 | **98% reduction** |

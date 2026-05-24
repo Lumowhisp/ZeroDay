@@ -46,10 +46,10 @@ Last year's winner (Team Finavat) built **RiverAuth** — behavioral analytics w
 
 ---
 
-## 2. Product Vision — "DocShield AI"
+## 2. Product Vision — "Forensica"
 
 ### 2.1 One-Liner
-> **DocShield AI** — An intelligent, real-time document forensic engine that detects tampering, forgery, and anomalies across land records, legal documents, and financial statements during Canara Bank's underwriting process.
+> **Forensica** — An intelligent, real-time document forensic engine that detects tampering, forgery, and anomalies across land records, legal documents, and financial statements during Canara Bank's underwriting process.
 
 ### 2.2 Problem Statement
 
